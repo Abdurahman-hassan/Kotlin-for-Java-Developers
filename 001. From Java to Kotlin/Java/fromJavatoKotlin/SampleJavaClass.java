@@ -1,6 +1,11 @@
 package fromJavatoKotlin;
 
+// packege name then file name
+import bsics.MainClass;
 import fromjavatoKotlin.PersonKotlin;
+
+// or we can use import static
+// import static fromjavatoKotlin.PersonKotlin.*;
 
 import java.awt.*;
 
@@ -13,7 +18,12 @@ public class SampleJavaClass {
     PersonKotlin p = new PersonKotlin("Abderlahman", 25);
     System.out.println(p.component1());
     System.out.println(p.component2());
+
+    // we changed the name of MainKotlin in the bsics backege to MainClass and we called it
+    MainClass.foo();
+
   }
+
 
   public static int rectangleArea(int x, int y) {
     return x * y;
