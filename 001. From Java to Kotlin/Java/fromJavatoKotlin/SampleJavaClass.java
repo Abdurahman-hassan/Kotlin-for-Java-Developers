@@ -1,8 +1,12 @@
+package fromJavatoKotlin;
+
+import fromjavatoKotlin.PersonKotlin;
+
 import java.awt.*;
 
 import static java.awt.Color.*;
 
-// Java codes in SampleJavaClass.java
+// Java codes in fromJavatoKotlin.SampleJavaClass.java
 public class SampleJavaClass {
   public static void main(String[] args) {
 

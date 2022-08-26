@@ -1,5 +1,8 @@
+package fromjavatoKotlin
+
 import com.sun.prism.paint.Color.BLUE
-import java.awt.Color
+import fromJavatoKotlin.PersonJava
+import fromJavatoKotlin.SampleJavaClass
 import java.awt.Color.ORANGE
 import java.awt.Color.RED
 

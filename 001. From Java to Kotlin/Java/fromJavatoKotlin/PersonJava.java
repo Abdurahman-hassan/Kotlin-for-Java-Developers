@@ -1,3 +1,5 @@
+package fromJavatoKotlin;
+
 public class PersonJava {
     private final String name;
     private final int age;
